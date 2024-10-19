@@ -1,0 +1,11 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/GPUAnimation/Editor/GpuAnimationSamplerWindow.uss?fileID=7433441132597879392&amp;guid=84c7deb23ba216942962fe8ed0cb655a&amp;type=3#GpuAnimationSamplerWindow" />
+    <editor:ObjectField label="Input" type="UnityEngine.GameObject, UnityEngine.CoreModule" name="Input" />
+    <engine:TextField label="Output Path" value="Assets/GPUAnimation/Output" name="OutputPath" />
+    <engine:EnumField label="Sample Mode" value="Bones" type="GpuAnimationSampler+SampleMode, Assembly-CSharp-Editor" name="SampleMode" />
+    <engine:IntegerField label="Sample Frame Rate" value="30" name="SampleFrameRate" />
+    <engine:Toggle label="Apply RootMotion" name="ApplyRootMotion" />
+    <editor:ObjectField label="Shader" type="UnityEngine.Shader, UnityEngine.CoreModule" name="Shader" value="project://database/Assets/GPUAnimation/ASE/GPUBoneAnimationLit-BuiltIn.shader?fileID=4800000&amp;guid=1bf19ef89299329488367389355f4bc5&amp;type=3#GPUAnimation/GPUBoneAnimationLit-BuiltIn" allow-scene-objects="false" />
+    <editor:PropertyField name="AnimationClips" label="Animation Clips" enabled="true" focusable="false" language-direction="Inherit" style="height: auto; flex-direction: column; flex-shrink: 1; flex-wrap: nowrap; max-height: 300px; min-width: auto; min-height: 40px; visibility: visible; overflow: visible; display: flex;" />
+    <engine:Button text="Bake" name="BtnBake" enabled="false" style="visibility: visible;" />
+</engine:UXML>
