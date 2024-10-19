@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66d08c7be1613d444a248ce09ce1b4ed, type: 3}
+  m_Name: Stickman_heads_Data
+  m_EditorClassIdentifier: 
+  clips:
+  - name: CombatIdle01
+    startFrameIndex: 0
+    frameCount: 44
+    frameRate: 30
+    lenght: 1.4666667
+    isLoop: 1
+  - name: Death01
+    startFrameIndex: 44
+    frameCount: 38
+    frameRate: 30
+    lenght: 1.2666668
+    isLoop: 0
+  - name: Fall01
+    startFrameIndex: 82
+    frameCount: 30
+    frameRate: 30
+    lenght: 1
+    isLoop: 1
+  - name: Idle01
+    startFrameIndex: 112
+    frameCount: 89
+    frameRate: 30
+    lenght: 2.966667
+    isLoop: 1
+  - name: Idle02
+    startFrameIndex: 201
+    frameCount: 86
+    frameRate: 30
+    lenght: 2.8666668
+    isLoop: 1
+  - name: Jump01
+    startFrameIndex: 287
+    frameCount: 34
+    frameRate: 30
+    lenght: 1.1333334
+    isLoop: 0
+  - name: Jump01 - Land
+    startFrameIndex: 321
+    frameCount: 16
+    frameRate: 30
+    lenght: 0.5333334
+    isLoop: 0
+  - name: Jump01 - MidAir
+    startFrameIndex: 337
+    frameCount: 30
+    frameRate: 30
+    lenght: 1
+    isLoop: 1
+  - name: RightHandAttack01
+    startFrameIndex: 367
+    frameCount: 42
+    frameRate: 30
+    lenght: 1.4000001
+    isLoop: 0
+  - name: Run01 - Backwards
+    startFrameIndex: 409
+    frameCount: 16
+    frameRate: 30
+    lenght: 0.53333336
+    isLoop: 1
+  - name: Run01 - BackwardsLeft
+    startFrameIndex: 425
+    frameCount: 16
+    frameRate: 30
+    lenght: 0.53333336
+    isLoop: 1
+  - name: Run01 - BackwardsRight
+    startFrameIndex: 441
+    frameCount: 16
+    frameRate: 30
+    lenght: 0.53333336
+    isLoop: 1
+  - name: Run01 - Forwards
+    startFrameIndex: 457
+    frameCount: 16
+    frameRate: 30
+    lenght: 0.53333336
+    isLoop: 1
+  - name: Run01 - ForwardsLeft
+    startFrameIndex: 473
+    frameCount: 16
+    frameRate: 30
+    lenght: 0.53333336
+    isLoop: 1
+  - name: Run01 - ForwardsRight
+    startFrameIndex: 489
+    frameCount: 16
+    frameRate: 30
+    lenght: 0.53333336
+    isLoop: 1
+  - name: Run01 - Left
+    startFrameIndex: 505
+    frameCount: 16
+    frameRate: 30
+    lenght: 0.53333336
+    isLoop: 1
+  - name: Run01 - Right
+    startFrameIndex: 521
+    frameCount: 16
+    frameRate: 30
+    lenght: 0.53333336
+    isLoop: 1
+  - name: Run02 - Backward
+    startFrameIndex: 537
+    frameCount: 20
+    frameRate: 30
+    lenght: 0.6666667
+    isLoop: 1
+  - name: Run02 - BackwardLeft
+    startFrameIndex: 557
+    frameCount: 20
+    frameRate: 30
+    lenght: 0.6666667
+    isLoop: 1
+  - name: Run02 - BackwardRight
+    startFrameIndex: 577
+    frameCount: 20
+    frameRate: 30
+    lenght: 0.6666667
+    isLoop: 1
+  - name: Run02 - Forward
+    startFrameIndex: 597
+    frameCount: 20
+    frameRate: 30
+    lenght: 0.6666667
+    isLoop: 1
+  - name: Run02 - ForwardLeft
+    startFrameIndex: 617
+    frameCount: 20
+    frameRate: 30
+    lenght: 0.6666667
+    isLoop: 1
+  - name: Run02 - ForwardRight
+    startFrameIndex: 637
+    frameCount: 20
+    frameRate: 30
+    lenght: 0.6666667
+    isLoop: 1
+  - name: Run02 - Left
+    startFrameIndex: 657
+    frameCount: 20
+    frameRate: 30
+    lenght: 0.6666667
+    isLoop: 1
+  - name: Run02 - Right
+    startFrameIndex: 677
+    frameCount: 20
+    frameRate: 30
+    lenght: 0.6666667
+    isLoop: 1
+  - name: ShieldAttack01
+    startFrameIndex: 697
+    frameCount: 27
+    frameRate: 30
+    lenght: 0.90000004
+    isLoop: 0
+  - name: Sprint01 - Forwards
+    startFrameIndex: 724
+    frameCount: 16
+    frameRate: 30
+    lenght: 0.53333336
+    isLoop: 1
+  - name: Sprint01 - ForwardsLeft
+    startFrameIndex: 740
+    frameCount: 16
+    frameRate: 30
+    lenght: 0.53333336
+    isLoop: 1
+  - name: Sprint01 - ForwardsRight
+    startFrameIndex: 756
+    frameCount: 16
+    frameRate: 30
+    lenght: 0.53333336
+    isLoop: 1
+  - name: Sprint01 - Left
+    startFrameIndex: 772
+    frameCount: 16
+    frameRate: 30
+    lenght: 0.53333336
+    isLoop: 1
+  - name: Sprint01 - Right
+    startFrameIndex: 788
+    frameCount: 16
+    frameRate: 30
+    lenght: 0.53333336
+    isLoop: 1
+  - name: Sprint02
+    startFrameIndex: 804
+    frameCount: 16
+    frameRate: 30
+    lenght: 0.53333336
+    isLoop: 1
+  - name: Strafe01 - Left
+    startFrameIndex: 820
+    frameCount: 28
+    frameRate: 30
+    lenght: 0.9333334
+    isLoop: 1
+  - name: Strafe01 - Right
+    startFrameIndex: 848
+    frameCount: 28
+    frameRate: 30
+    lenght: 0.9333334
+    isLoop: 1
+  - name: TakeDamage01
+    startFrameIndex: 876
+    frameCount: 20
+    frameRate: 30
+    lenght: 0.6666667
+    isLoop: 0
+  - name: Talk01
+    startFrameIndex: 896
+    frameCount: 63
+    frameRate: 30
+    lenght: 2.1000001
+    isLoop: 0
+  - name: Walk01 - Backwards
+    startFrameIndex: 959
+    frameCount: 24
+    frameRate: 30
+    lenght: 0.8000001
+    isLoop: 1
+  - name: Walk01 - BackwardsLeft
+    startFrameIndex: 983
+    frameCount: 24
+    frameRate: 30
+    lenght: 0.8000001
+    isLoop: 1
+  - name: Walk01 - BackwardsRight
+    startFrameIndex: 1007
+    frameCount: 24
+    frameRate: 30
+    lenght: 0.8000001
+    isLoop: 1
+  - name: Walk01 - Forwards
+    startFrameIndex: 1031
+    frameCount: 24
+    frameRate: 30
+    lenght: 0.8000001
+    isLoop: 1
+  - name: Walk01 - ForwardsLeft
+    startFrameIndex: 1055
+    frameCount: 24
+    frameRate: 30
+    lenght: 0.8000001
+    isLoop: 1
+  - name: Walk01 - ForwardsRight
+    startFrameIndex: 1079
+    frameCount: 24
+    frameRate: 30
+    lenght: 0.8000001
+    isLoop: 1
+  - name: Walk01 - Left
+    startFrameIndex: 1103
+    frameCount: 24
+    frameRate: 30
+    lenght: 0.8000001
+    isLoop: 1
+  - name: Walk01 - Right
+    startFrameIndex: 1127
+    frameCount: 24
+    frameRate: 30
+    lenght: 0.8000001
+    isLoop: 1

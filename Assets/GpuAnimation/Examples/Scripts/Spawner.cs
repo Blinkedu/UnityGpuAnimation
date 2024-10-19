@@ -15,10 +15,13 @@ public class Spawner : MonoBehaviour
             {
                 GameObject go = GameObject.Instantiate(prefab, new Vector3(i * space, 0, j * space), Quaternion.identity, transform);
                 GpuAnimationPlayer animationPlayer = go.GetComponent<GpuAnimationPlayer>();
-                animationPlayer.Play(Random.Range(0, animationPlayer.Clips.Length));
+                if (animationPlayer != null )
+                {
+                    animationPlayer.Play(Random.Range(0, animationPlayer.Clips.Length));
 
-                animationPlayer.MaterialPropertyBlock.SetColor("_Color", new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f), 1));
-                animationPlayer.MeshRenderer.SetPropertyBlock(animationPlayer.MaterialPropertyBlock);
+                    animationPlayer.MaterialPropertyBlock.SetColor("_Color", new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f), 1));
+                    animationPlayer.MeshRenderer.SetPropertyBlock(animationPlayer.MaterialPropertyBlock);
+                }
             }
         }
     }
